@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'champagne';
+  src: url(champagneandlimobold.ttf);
+}
+@font-face {
+  font-family: 'champagneitalic';
+  src: url(champagneandlimosbolditalic.ttf);
+}
+
+body {
+  background-image: url("whitehex.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 140%;
+}
+p {
+  font-family: champagne;
+  text-align: center;
+  padding: 50px;
+  color: #ffffff;
+}
+a:link {
+  text-decoration: none;
+  color: #00A1D6;
+
+}
+a:visited {
+  text-decoration: none;
+  color: #00D688;
+}
+a:hover {
+  text-decoration: underline;
+  color: #D600BA;
+}
+#container{
+  width: auto;
+  margin: 60px auto 40px;
+
+}
+#contact-name{
+  text-align: center;
+  padding: 50px;
+  color: #00D688;
+  font-family: champagne;
+
+}
+#contact-info{
+  text-align: center;
+  padding: 50px;
+  font-family: champagne;
+  color: #ffffff;
+}
+#tagline{
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  font-family: champagneitalic;
+  color: #ffffff;
+
+}
+#experience{
+  text-align: center;
+  font-family: champagne;
+  color: #ffffff;
+}
+#current-job{
+  text-align: center;
+  font-family: champagne;
+  color: #ffffff;
+}
+#past-jobs{
+  text-align: center;
+  font-family: champagne;
+  color: #ffffff;
+}
+
+#pic{
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  background-color: #000000;
+}
+#transbox {
+  margin: 250px;
+  background-color: #000000;
+  border:10px solid black;
+  opacity: 0.75;
+  filter: alpha (opacity=75);
+}
