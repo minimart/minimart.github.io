@@ -25,8 +25,7 @@ figure img:hover{
   opacity: 0.4;
 }
 figure span{
-  text-align: center!important;
-  position: fixed;
+  position: relative;
   display: none;
   width: 100%;
 
