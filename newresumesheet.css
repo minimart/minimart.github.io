@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'champagne';
+  src: url(champagneandlimobold.ttf);
+  font-style:normal;
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'champagne';
+  src: url(champagneandlimosbolditalic.ttf);
+  font-style:italic;
+  font-weight:normal;
+}
+html {
+  background: url(images/pinksun.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+figure img{
+  transform: scale(0.5, 0.5);
+  border: 7px solid #BA07BB;
+  border-radius: 50%;
+  background-color: #BA07BB;
+}
+
+figure img:hover{
+  opacity: 0.4;
+}
+figure span{
+  text-align: center!important;
+  position: fixed;
+  display: none;
+  width: 100%;
+
+}
+figure:hover span{
+  display:block;
+}
+article {
+  font-family: 'champagne';
+  text-align: center;
+
+}
+main {
+  font-family: 'champagne';
+  text-align: center;
+  background-color: rgba(247,70,125,0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  max-width: 700px;
+  border-radius: 25px;
+}
+aside {
+  font-family: 'champagne';
+  text-align: center;
+
+}
+footer {
+  font-family: 'champagne';
+  text-align: center;
+  background-color: rgba(24,23,54,0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  max-width: 700px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+header {
+  font-family: 'champagne';
+  text-align: center;
+  color: #BA07BB;
+  text-shadow: 1px black;
+  background-image: url('images/pinksun.jpg ');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding-bottom: 150px;
+}
+header h1{
+  color:inherit;
+  text-align: center;
+  word-wrap: break-word;
+  width: 60%;
+  margin: 0 auto;
+  text-shadow: 2px 2px 5px #120F24;
+}
+a:link {
+  color: #F7467D;
+  text-shadow: 3px black;
+}
+a:visited {
+  color: #B210C5;
+}

@@ -36,7 +36,6 @@ a:hover {
 #container{
   width: auto;
   margin: 60px auto 40px;
-
 }
 #contact-name{
   text-align: center;
@@ -75,7 +74,7 @@ a:hover {
   color: #ffffff;
 }
 
-#pic{
+fig{
   height: 300px;
   display: block;
   margin: 0 auto;
