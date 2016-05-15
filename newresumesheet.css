@@ -24,14 +24,8 @@ figure img{
 figure img:hover{
   opacity: 0.4;
 }
-figure span{
-  position: relative;
-  display: none;
-  width: 100%;
-
-}
-figure:hover span{
-  display:block;
+figure p .msg-me {
+  display: inline;
 }
 article {
   font-family: 'champagne';
