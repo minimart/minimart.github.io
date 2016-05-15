@@ -14,7 +14,7 @@ html {
   background: url(images/pinksun.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-figure img{
+div img{
   transform: scale(0.5, 0.5);
   border: 7px solid #BA07BB;
   border-radius: 50%;
@@ -22,13 +22,22 @@ figure img{
   position: relative;
 }
 
-figure img:hover{
+div img:hover{
   opacity: 0.4;
 }
-figure p .msg-me {
+div img:hover +h3 {
+  opacity:1.0;
+}
+div h3{
+  color: #BA07BB;
   position: absolute;
   width: 100%;
+  top:300px;
+  left:0;
+  opacity:0.0;
+  text-shadow: 2px 2px 5px #000;
 }
+
 article {
   font-family: 'champagne';
   text-align: center;
