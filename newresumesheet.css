@@ -19,13 +19,15 @@ figure img{
   border: 7px solid #BA07BB;
   border-radius: 50%;
   background-color: #BA07BB;
+  position: relative;
 }
 
 figure img:hover{
   opacity: 0.4;
 }
 figure p .msg-me {
-  display: inline;
+  position: absolute;
+  width: 100%;
 }
 article {
   font-family: 'champagne';
