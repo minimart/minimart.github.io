@@ -77,14 +77,6 @@ header {
   text-align: center;
   color: #BA07BB;
   text-shadow: 1px black;
-  background-image: url('images/pinksun.jpg ');
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  margin: 0px;
-  padding-bottom: 150px;
 }
 header h1{
   color:inherit;
